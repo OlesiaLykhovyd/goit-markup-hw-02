@@ -63,6 +63,39 @@ body {
   color: var(--accent-color);
 }
 
+/* Hero */
+.hero {
+  background-color: var(--bcg-color-grey);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* Sections */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Section Benefits */
+.benefits-title {
+  color: var(--title-text-color);
+}
+
+/* Section team */
+.section-team {
+  background-color: var(--bcg-color-pink);
+}
+
+.names {
+  color: var(--title-text-color);
+}
+
 /* Footer */
 .footer {
   background-color: var(--bcg-color-grey);
