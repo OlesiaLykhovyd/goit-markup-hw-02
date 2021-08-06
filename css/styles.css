@@ -19,7 +19,7 @@
 .list {
   list-style: none;
 }
-
+/* MAIN */
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
@@ -111,4 +111,22 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+/* Buttons */
+.selector-button {
+  color: var(--title-text-color);
+  background-color: var(--bcg-color-pink);
+}
+
+.selector-button:hover,
+.selector-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Gallery */
+.gallery-title {
+  color: var(--title-text-color);
 }
