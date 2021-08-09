@@ -12,6 +12,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --black-color: #000000;
   --bcg-color-grey: #2f303a;
   --bcg-color-pink: #f5f4fa;
 }
@@ -23,15 +24,26 @@
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Logo */
 .logo {
   color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .header-logo {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .footer-logo {
@@ -42,6 +54,11 @@ body {
 
 .nav-link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -56,6 +73,11 @@ body {
 /* Contacts */
 .contacts {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts:hover,
@@ -70,21 +92,44 @@ body {
 
 .hero-title {
   color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   background-color: var(--accent-color);
   color: var(--white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  font-family: inherit;
 }
 
 /* Sections */
-.section-title {
-  color: var(--title-text-color);
-}
 
 /* Section Benefits */
 .benefits-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Section team */
@@ -94,6 +139,17 @@ body {
 
 .names {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* Footer */
@@ -103,9 +159,15 @@ body {
 
 .footer-address {
   color: var(--white-color);
+
+  font-style: normal;
+  text-decoration: none;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  text-decoration: none;
 }
 
 .footer-contacts:hover,
@@ -118,6 +180,11 @@ body {
 .selector-button {
   color: var(--title-text-color);
   background-color: var(--bcg-color-pink);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
 }
 
 .selector-button:hover,
@@ -129,4 +196,19 @@ body {
 /* Gallery */
 .gallery-title {
   color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.89;
+}
+
+.list-link {
+  text-decoration: none;
 }
