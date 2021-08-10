@@ -118,7 +118,6 @@ body {
 .benefits-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -126,7 +125,6 @@ body {
 .section-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
