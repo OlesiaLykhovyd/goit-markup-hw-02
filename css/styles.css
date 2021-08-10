@@ -15,6 +15,12 @@
   --black-color: #000000;
   --bcg-color-grey: #2f303a;
   --bcg-color-pink: #f5f4fa;
+
+  --font-weight-700: 700;
+  --font-weight-500: 500;
+  --font-size-16: 16px;
+  --line-height-14: 1.14;
+  --line-height-19: 1.19;
 }
 
 .list {
@@ -36,9 +42,9 @@ body {
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-weight: var(--font-weight-700);
   font-size: 26px;
-  line-height: 1.19;
+  line-height: var(--line-height-19);
   text-decoration: none;
 }
 
@@ -55,8 +61,8 @@ body {
 .nav-link {
   color: var(--title-text-color);
 
-  font-weight: 500;
-  line-height: 1.14;
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-14);
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -74,8 +80,8 @@ body {
 .contacts {
   color: var(--primary-text-color);
 
-  font-weight: 500;
-  line-height: 1.14;
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-14);
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -105,11 +111,13 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
 
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-16);
   line-height: 1.87;
   letter-spacing: 0.06em;
   font-family: inherit;
+
+  cursor: pointer;
 }
 
 /* Sections */
@@ -118,7 +126,7 @@ body {
 .benefits-title {
   color: var(--title-text-color);
 
-  line-height: 1.14;
+  line-height: var(--line-height-14);
   text-transform: uppercase;
 }
 
@@ -138,15 +146,15 @@ body {
 .names {
   color: var(--title-text-color);
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-19);
   text-align: center;
 }
 
 .profession {
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-19);
   text-align: center;
 }
 
@@ -157,13 +165,13 @@ body {
 
 .footer-address {
   color: var(--white-color);
-
-  font-style: normal;
-  text-decoration: none;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+}
 
+.footer-address,
+.footer-contacts {
   font-style: normal;
   text-decoration: none;
 }
@@ -179,10 +187,12 @@ body {
   color: var(--title-text-color);
   background-color: var(--bcg-color-pink);
 
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
   line-height: 1.62;
   font-family: inherit;
+
+  cursor: pointer;
 }
 
 .selector-button:hover,
@@ -203,7 +213,7 @@ body {
 .gallery-text {
   color: var(--primary-text-color);
 
-  font-size: 16px;
+  font-size: var(--font-size-16);
   line-height: 1.89;
 }
 
