@@ -71,7 +71,7 @@ body {
 }
 
 /* Contacts */
-.contacts {
+.contacts-item {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -80,8 +80,8 @@ body {
   text-decoration: none;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--accent-color);
 }
 
