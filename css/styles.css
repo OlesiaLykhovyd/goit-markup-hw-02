@@ -71,7 +71,7 @@ body {
 }
 
 /* Contacts */
-.contacts-item {
+.contacts {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -80,8 +80,8 @@ body {
   text-decoration: none;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-color);
 }
 
@@ -112,6 +112,11 @@ body {
   font-family: inherit;
 
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 /* Sections */
